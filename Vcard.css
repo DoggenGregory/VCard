@@ -1,0 +1,90 @@
+#Background{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 25% 200px 25%;
+    grid-template-rows: 30px 65vh 20px;
+    background-color: grey;
+    background-image: url(https://image.freepik.com/free-photo/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+    background-size: cover;
+}
+#backcard{
+    grid-column: 2/2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    background-color:yellow;
+    
+    border-radius: 25px;
+
+}
+
+#image{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    
+    background-image: url(https://image.freepik.com/free-photo/wooden-plank-textured-background-material_53876-33591.jpg);
+    background-size: cover ;
+    border-radius: 15px;
+    border-color: black;
+    border-width:10px;
+    box-shadow: 2px 2px 5px;
+    
+
+}
+#card{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0,0.3), rgb(146, 146, 146,0));
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns:40% 30% 30% ;
+    grid-template-rows: 40% 30% 30% ;
+                            
+}
+
+#pic{
+    grid-row:1/3;
+    grid-column: 1/1;
+    background-image: url(greg.jpg);
+    background-size: cover;
+    
+    border-radius: 15px;
+
+    margin : 5px;
+    box-shadow: 2px 2px 5px;
+
+}
+#name{
+    grid-column: 1;
+    grid-row: 3/3;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    margin-left:10px;
+    margin-bottom:15px;
+
+}
+
+.titleSubText{
+    
+    grid-row: 1/3;
+    grid-column: 2/3;
+    font-size: 10px;
+    color:white;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px  rgb(0, 0, 0);
+    margin:5px;
+    
+    
+
+}
+.subText{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    font-size:  6px;
+    color:white;
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px  rgb(0, 0, 0);
+    margin:0px;
+    
+}

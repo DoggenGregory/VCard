@@ -62,10 +62,10 @@ body{
     grid-column: 1;
     grid-row: 2/2;
     color:white;
-    text-shadow: 0.4em 0.4em 1em black;
+    font-weight: bold;
     margin-left:0.5em;
     margin-top: 1em;
-    font-size: 1.5em;
+    font-size: 2.8em;
     font-family:sans-serif;
     
     
@@ -85,6 +85,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 0 0 3em rgb(0, 0, 0), 0 0 3em  rgb(0, 0, 0);
     margin:0.5em 0.1em;
+    
  
 
 
